@@ -378,3 +378,24 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 256px;
+  height: 256px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+}
+
+.my-image {
+  position: relative;
+  top: -80px;
+}
